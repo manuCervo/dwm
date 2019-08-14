@@ -1,5 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 #include "layouts.c"
+#include "fibonacci.c"
 /* appearance */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -45,6 +46,7 @@ static const Layout layouts[] = {
 	{ "G",      grid},
 	{ "F",      NULL },    /* no layout function means floating behavior */
 	{ "M",      monocle },
+	{ "D",	    dwindle},
 };
 
 /* key definitions */
@@ -81,6 +83,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[3]} },
 	{ MODKEY,			XK_g,	   setlayout,      {.v = &layouts[1]} },
+	{ MODKEY,			XK_s,	   setlayout,	   {.v = &layouts[4]} },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },

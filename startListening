@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "config.h" | entr -p ./recompileDwm
