@@ -48,3 +48,11 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+patches:
+--------
+- [autostart](https://dwm.suckless.org/patches/autostart/)
+- [uslessgap](https://dwm.suckless.org/patches/uselessgap/)
+- [centeredmaster](https://dwm.suckless.org/patches/centeredmaster/)
+- [fibonacci](https://dwm.suckless.org/patches/fibonacci/)
+- [gridmode](https://dwm.suckless.org/patches/gridmode/)
