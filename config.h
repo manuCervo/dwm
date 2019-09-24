@@ -12,14 +12,16 @@ static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
+static const char col_gray5[]	    = "#858885";
 static const char col_white[]       = "#ffffff";
 static const char col_pink[]	    = "#d71a6c";
 static const char col_cyan[]        = "#005577";
+static const char col_light_blue[]  = "#00e3e0";
 static const unsigned int gappx     = 16;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_white },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_white  },
+	[SchemeSel]  = { col_white, col_gray5,  col_white  },
 };
 
 /* tagging */
