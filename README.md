@@ -56,3 +56,4 @@ patches:
 - [centeredmaster](https://dwm.suckless.org/patches/centeredmaster/)
 - [fibonacci](https://dwm.suckless.org/patches/fibonacci/)
 - [gridmode](https://dwm.suckless.org/patches/gridmode/)
+- [savefloats](https://dwm.suckless.org/patches/save_floats/)
