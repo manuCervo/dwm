@@ -57,3 +57,4 @@ patches:
 - [fibonacci](https://dwm.suckless.org/patches/fibonacci/)
 - [gridmode](https://dwm.suckless.org/patches/gridmode/)
 - [savefloats](https://dwm.suckless.org/patches/save_floats/)
+- [focusadjacenttag](http://dwm.suckless.org/patches/focusadjacenttag/)
