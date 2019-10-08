@@ -2,7 +2,7 @@
 #include "layouts.c"
 #include "fibonacci.c"
 /* appearance */
-static const unsigned int borderpx  = 0;        /* border pixel of windows */
+static const unsigned int borderpx  = 4;        /* border pixel of windows */
 static const unsigned int snap      = 16;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -17,11 +17,17 @@ static const char col_white[]       = "#ffffff";
 static const char col_pink[]	    = "#d71a6c";
 static const char col_cyan[]        = "#005577";
 static const char col_light_blue[]  = "#00e3e0";
-static const unsigned int gappx     = 16;
+static const char col_orange1[]	    = "#f97068";
+static const char col_green1[] 	    = "#d1d646";
+static const char col_white1[]	    = "#edf2ef";
+static const char col_light_blue1[] = "#57c4ec";
+static const char col_darkblue[]    = "#212738";
+static const char col_blue[]	    = "#0000ff";
+static const unsigned int gappx     = 0;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_white },
-	[SchemeSel]  = { col_pink, col_light_blue,  col_white  },
+	[SchemeNorm] = { col_orange1, col_darkblue, col_green1 },
+	[SchemeSel]  = { col_green1, col_darkblue,  col_orange1  },
 };
 
 /* tagging */
@@ -66,7 +72,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 //static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, "-i" };
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_light_blue, "-sf", col_pink, "-i" };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_darkblue, "-nf", col_orange1, "-sb", col_darkblue, "-sf", col_green1, "-i" };
 
 static const char *termcmd[]  = { "termite", NULL };
 //static const char *termcmd[]  = { "kitty", NULL };
