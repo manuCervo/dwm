@@ -58,3 +58,4 @@ patches:
 - [gridmode](https://dwm.suckless.org/patches/gridmode/)
 - [savefloats](https://dwm.suckless.org/patches/save_floats/)
 - [focusadjacenttag](http://dwm.suckless.org/patches/focusadjacenttag/)
+- [statuscolors](https://dwm.suckless.org/patches/statuscolors/)
