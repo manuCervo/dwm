@@ -7,7 +7,7 @@ static const unsigned int snap      = 16;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=12" };
-static const char dmenufont[]       = "monospace:size=12";
+static const char dmenufont[]       = "font-awesome:size=12";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -23,11 +23,13 @@ static const char col_white1[]	    = "#edf2ef";
 static const char col_light_blue1[] = "#57c4ec";
 static const char col_darkblue[]    = "#212738";
 static const char col_blue[]	    = "#0000ff";
+static const char col_red[]	    = "#ff0000";
 static const unsigned int gappx     = 0;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_orange1, col_darkblue, col_green1 },
 	[SchemeSel]  = { col_green1, col_darkblue,  col_orange1  },
+	{ col_red,col_gray1,col_gray2},
 };
 
 /* tagging */
