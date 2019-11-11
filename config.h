@@ -38,6 +38,7 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "com-install4j-runtime-launcher-UnixLauncher", NULL, "win0",    0,1,-1 },
+	{ "java-lang-Thread",NULL,"win0",0,1,-1},
 
 };
 
